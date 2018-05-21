@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="gh"
+fetch="git://github.com/" />
+
+<project path="kernel/huawei/hi3650" name="OpenKirin/android_kernel_huawei_hi3650" remote="gh" revision="7.x" />
+<project path="device/huawei/eva" name="OpenKirin/android_device_huawei_eva" remote="gh" revision="ef8e7c58b341ee809d41110338d826ba1b1b6ec8" />
+<project path="device/hisi/3650-common" name="OpenKirin/android_device_hisi_3650-common" remote="gh" revision="twrp-nougat" />
+
+
+</manifest>
